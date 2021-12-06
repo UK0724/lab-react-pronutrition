@@ -1,0 +1,61 @@
+.search-container
+{
+    margin: 50px;
+}
+
+.Food,input
+{
+    border:2px solid purple;
+    border-radius: 5px;
+}
+
+.Food>img
+{
+    height: 50px;
+    width: 50px;
+}
+
+.Food
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 40%;
+    margin: 50px;
+    padding: 10px;
+}
+
+.Food img
+{
+    margin-top: 40px;
+}
+.Food .count
+{
+    margin-top: 40px;
+}
+
+.Food .count button
+{
+    background-color: purple;
+    color: white;
+}
+
+.right
+{
+    position: absolute;
+    top: 150px;
+    left: 800px;
+}
+
+.right .item
+{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.right .item button
+{
+    background-color: purple;
+}
